@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{/*하이퍼링크 기본 스타일*/
+    text-decoration-line: none;
+    color: black;
+}
+body{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+/*-------------------------*/
+.header-container-outline{/*헤더 기반 스타일*/
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+.header-container{
+    width: 980px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.h-c-section01{/*로고가 들어갈 섹션*/
+    width:350px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.h-c-section02{
+    width: 210px;
+    height: 30px;
+}
+.h-c-section03{
+    width: 100px;
+    height: 30px;
+}
+.h-c-section04{
+    width: 235px;
+    height: 30px;
+}
+/*-----------헤더 종료-----------*/
+/* ----------메인 시작----------- */
+.main-container-outline{/*헤더 기반 스타일*/
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+}
+.main-container{
+    width:500px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    border: 1px solid black;
+}
+.main-container-up{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+}
+/* ----------메인 종료----------- */
+.footer-container-outline{/*풋터 기반 스타일*/
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    background-color: #f3f3f3;
+}
+.footer-container{
+    width: 980px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.f-c-section02{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-container-outline02{/*풋터 기반 스타일*/
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: #f3f3f3;
+}
+.footer-container02{
+    width: 980px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+hr{
+    /* background-color: rgb(247, 247, 247); */
+    background: rgb(247, 247, 247);
+    border: .5;
+}
+/*-----------footer 종료--------------*/
+
+/*커뮤니티 main 시작*/
+.community-outline{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.c-o-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.c-o-c-container{
+    width: 980px;
+    height: auto;
+    /* border: 1px solid black; */
+}
+.c-o-c-c-linkbox{/*링크박스 식단 운동일지 공지사항*/
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    width: 940px;
+    height: 130px;
+    padding: 12px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+li{
+    width: 400px;
+    height: 95px;
+    list-style-type: none;
+    background-color:#F4F4F4;
+    border-radius: 10px;
+
+}
+.c-o-c-c-l-link{
+    width: 80px;
+    height: 95px;
+    color: #323232;
+}
+.c-o-c-c-l-l-container{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    /* flex-direction: column; */
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+}
+/* .c-o-c-c-l-l-container:hover{
+    margin: 0;
+    background-color: #F4F4F4;
+    border-radius: 10px;
+  } */
+.c-o-c-board-container{
+    width: 100%;
+    height: 500px;
+    border: 1px solid black;
+}
+.c-o-c-search-container{
+    width: 100%;
+    height: 30px;
+    border: 1px solid black;
+    display: flex;
+    margin-top: 15px;
+}
+.c-o-c-s-c-choice{
+    width: 100px;
+    height: 30px;
+    border: 1px solid black;
+    margin: 0 15px 0 0;
+}
+.c-o-c-s-c-search{
+    width: 250px;
+    height: 30px;
+    border: 1px solid black;
+}
+.c-o-c-writing-button{
+    width: 100%;
+    height: 20px;
+    margin-top: 10px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: end;
+}
