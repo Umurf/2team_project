@@ -253,7 +253,8 @@ footer{
   font-size: 13px;
   color: gray;
   
-  /* 푸터 하단 고정 */
+  /* 푸터 하단 고정  */
+
   /* position : absolute;
   bottom : 0; */
 }
