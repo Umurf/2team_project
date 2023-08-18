@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'NanumSquareNeo-Variable';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+a{/*하이퍼링크 기본 스타일*/
+    text-decoration-line: none;
+    color: black;
+}
+body{
+    width: 100%;
+    height: auto;
+    display: block;
+    font-family: 'NanumSquareNeo-Variable';
+}
+
+/*-------------------------*/
+.header-container-outline{/*헤더 기반 스타일*/
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #f2f2f2;
+}
+.header-container{
+    width: 980px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.h-c-section01{/*로고가 들어갈 섹션*/
+    width:350px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.h-c-section02{
+    width: 210px;
+    height: 30px;
+    margin-top: 15px;
+}
+.h-c-section03{
+    width: 235px;
+    height: 30px;
+    display: inline-block;
+    text-align: end;
+    margin-top: 15px;
+}
+/*-----------헤더 종료-----------*/

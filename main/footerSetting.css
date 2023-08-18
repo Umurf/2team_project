@@ -21,41 +21,6 @@ body{
 }
 
 /*-------------------------*/
-.header-container-outline{/*헤더 기반 스타일*/
-    width: 100%;
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    border-bottom: 1px solid #f2f2f2;
-}
-.header-container{
-    width: 980px;
-    height: 60px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.h-c-section01{/*로고가 들어갈 섹션*/
-    width:350px;
-    height: 60px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-}
-.h-c-section02{
-    width: 210px;
-    height: 30px;
-    margin-top: 15px;
-}
-.h-c-section03{
-    width: 235px;
-    height: 30px;
-    display: inline-block;
-    text-align: end;
-    margin-top: 15px;
-}
-/*-----------헤더 종료-----------*/
 .footer-container-outline{/*풋터 기반 스타일*/
     width: 100%;
     height: 80px;
@@ -99,21 +64,3 @@ body{
   transform : translateY(-100%);
 } */
 /*-----------footer 종료--------------*/
-main{/*main결정*/
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.m-o-container{
-    width: 980px;
-    height: auto;
-}
-.m-o-container02{
-    width: 980px;
-    height: auto;
-    display: flex;
-    justify-content: center;
-}
