@@ -105,6 +105,14 @@ main{
     font-size: 16px;
     /* background-color: blueviolet; */
 }
+#title1{
+    margin: 5px;
+}
+#title2{
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0 5px;
+}
 .main-box1-content{
     width: 980px;
     height: 154px;
