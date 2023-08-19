@@ -107,14 +107,14 @@ body{
     border-style: hidden;
 }
 .map{
-    width: 500px;
+    width: 100%;
     height: 500px;
-    display: flex;
+    /* display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto;
+    margin: auto;*/
     margin-top: 50px;
-    border: 1px solid black;
+    border: 1px solid black; 
 }
 /* .main-container-down-section1{
     width: 500px;

@@ -61,8 +61,8 @@ body{
     justify-content: center;
 }
 .main-container{
-    width:500px;
-    height: 500px;
+    width:700px;
+    height: 700px;
     display: flex;
     flex-direction: column;
     margin-top: 50px;
@@ -74,15 +74,17 @@ body{
     justify-content: center;
 }
 .main-container-down{
-    width: 100%;
+    width: 700px;
     height: 500px;
     display: flex;
     flex-direction: column;
     margin-top: 50px;
+    
+    margin-bottom: 100px;
     border: 1px solid black; 
 }
 .main-container-down-section01{
-    width: 400px;
+    width: 700px;
     height: 20px;
     display: flex;
     justify-content: end;
@@ -96,6 +98,7 @@ body{
     color: red;
     margin-top: 10px;
     text-decoration: underline;
+    
 }
 .main-container-down-section02{
     width: 100%;
@@ -129,11 +132,15 @@ body{
     align-items: center;
 }
 .main-container-down-section02-box2{
-    width: 300px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    margin-left: 30px;
+  display: inline-block;
+  width: 500px;
+  padding: 8px 15px 9px;
+  border: 1px solid rgb(204, 209, 212);
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+  line-height: 21px;
+  margin-left: 30px;
 }
 .main-container-down-section03-box1{
     width: 70px;
@@ -143,11 +150,15 @@ body{
     align-items: center;
 }
 .main-container-down-section03-box2{
-    width: 300px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    margin-left: 30px;
+    display: inline-block;
+  width: 500px;
+  padding: 8px 15px 9px;
+  border: 1px solid rgb(204, 209, 212);
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+  line-height: 21px;
+  margin-left: 30px;
 }
 .main-container-down-section04-box1{
     width: 70px;
@@ -157,11 +168,15 @@ body{
     align-items: center;
 }
 .main-container-down-section04-box2{
-    width: 300px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    margin-left: 30px;
+    display: inline-block;
+  width: 500px;
+  padding: 8px 15px 9px;
+  border: 1px solid rgb(204, 209, 212);
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+  line-height: 21px;
+  margin-left: 30px;
 }
 .main-container-down-section05-box1{
     width: 100px;
@@ -171,13 +186,17 @@ body{
     align-items: center;
 }
 .main-container-down-section05-box2{
-    width: 300px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
+    display: inline-block;
+  width: 500px;
+  padding: 8px 15px 9px;
+  border: 1px solid rgb(204, 209, 212);
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+  line-height: 21px;
 }
 .main-container-down-section06{
-    width: 400px;
+    width: 650px;
     height: 40px;
     display: flex;
     justify-content: end;
@@ -189,6 +208,7 @@ body{
     height: 80px;
     display: flex;
     justify-content: center;
+    margin-top: 100px;
     background-color: #f3f3f3;
 }
 .footer-container{
@@ -228,94 +248,3 @@ hr{
 }
 /*-----------footer 종료--------------*/
 
-/*커뮤니티 main 시작*/
-.community-outline{
-    width: 100%;
-    height: auto;
-    display: block;
-}
-.c-o-container{
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-}
-.c-o-c-container{
-    width: 980px;
-    height: auto;
-    /* border: 1px solid black; */
-}
-.c-o-c-c-linkbox{/*링크박스 식단 운동일지 공지사항*/
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-ul{
-    width: 940px;
-    height: 130px;
-    padding: 12px;
-    display: flex;
-    justify-content: space-around;
-    margin: auto;
-}
-li{
-    width: 400px;
-    height: 95px;
-    list-style-type: none;
-    background-color:#F4F4F4;
-    border-radius: 10px;
-
-}
-.c-o-c-c-l-link{
-    width: 80px;
-    height: 95px;
-    color: #323232;
-}
-.c-o-c-c-l-l-container{
-    width: 100%;
-    height: 75px;
-    display: flex;
-    /* flex-direction: column; */
-    margin-top: 10px;
-    justify-content: center;
-    align-items: center;
-}
-/* .c-o-c-c-l-l-container:hover{
-    margin: 0;
-    background-color: #F4F4F4;
-    border-radius: 10px;
-  } */
-.c-o-c-board-container{
-    width: 100%;
-    height: 500px;
-    border: 1px solid black;
-}
-.c-o-c-search-container{
-    width: 100%;
-    height: 30px;
-    border: 1px solid black;
-    display: flex;
-    margin-top: 15px;
-}
-.c-o-c-s-c-choice{
-    width: 100px;
-    height: 30px;
-    border: 1px solid black;
-    margin: 0 15px 0 0;
-}
-.c-o-c-s-c-search{
-    width: 250px;
-    height: 30px;
-    border: 1px solid black;
-}
-.c-o-c-writing-button{
-    width: 100%;
-    height: 20px;
-    margin-top: 10px;
-    border: 1px solid black;
-    display: flex;
-    justify-content: end;
-}

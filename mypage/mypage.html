@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/mypage/mypage.css">
-    <title>ohwoonwan</title>
+    <title>mypage</title>
 </head>
 <body>
     <div class="header-container-outline"><!--헤더의 시작-->
@@ -49,37 +49,37 @@
                         <div class="main-container-down-section02-box1">
                             이메일
                         </div>
-                        <div class="main-container-down-section02-box2">
-                            <input type="text" style="width: 250px;" placeholder="이메일을 입력해주세요">
-                        </div>
+                        <label>
+                            <input type="emall" name="email" placeholder="이메일" value class="main-container-down-section02-box2">
+                        </label>
                     </div>
                     <div class="main-container-down-section03">
                         <div class="main-container-down-section03-box1">
                             닉네임
                         </div>
-                        <div class="main-container-down-section03-box2">
-                            <input type="text" style="width: 250px;" placeholder="닉네임을 입력해주세요">
-                        </div>
+                        <label>
+                            <input type="nickname" name="nickname" placeholder="닉네임" value class="main-container-down-section03-box2">
+                        </label>
                     </div>
                     <div class="main-container-down-section04">
                         <div class="main-container-down-section04-box1">
                             비밀번호
                         </div>
-                        <div class="main-container-down-section04-box2">
-                            <input type="text" style="width: 250px;" placeholder="비밀번호를 입력해주세요">
-                        </div>
+                        <label>
+                            <input type="password" name="password" placeholder="비밀번호" value class="main-container-down-section04-box2">
+                        </label>
                     </div>
                     <div class="main-container-down-section05">
                         <div class="main-container-down-section05-box1">
                             비밀번호 확인
                         </div>
-                        <div class="main-container-down-section05-box2">
-                            <input type="text" style="width: 250px;" placeholder="위와 동일한 비밀번호를 입력해주세요">
-                        </div>
+                        <label>
+                            <input type="password" name="password" placeholder="비밀번호 확인" value class="main-container-down-section05-box2">
+                        </label>
                     </div>
                     <div class="main-container-down-section06">
                         <button style="width: 70px; margin-right: 30px;">수정</button>
-                        <button style="width: 70px; margin-right: 20px;" >취소</button>
+                        <button style="width: 70px; margin-right: 20px;">취소</button>
                     </div>
                 </div>
             </div>
@@ -119,43 +119,5 @@
         </footer>
     </div><!--footer종료-->
 </body>
-<script>
-    const btns = document.querySelectorAll("button.btn");
-    const banner = document.querySelector("div.banner");
-    const arrows = document.querySelectorAll("div.arrow");
-    var count = 0;
 
-    btns.forEach(function(value, index, ar){
-        ar[index].addEventListener("click", function(){
-            count = index;
-            banner.style.transform = "translate(-" + count * 980 + "px )";
-        })
-    });
-
-    //이전, 다음 버튼 클릭시 알맞은 배너로 이동
-    arrows.forEach((arrow) => {
-        arrow.addEventListener("click", function(){
-            let arrowType = arrow.classList[1];
-            if(arrowType == 'prev' && count != 0){
-                count --;
-            }else if(arrowType == 'next' && count != 3 - 1){
-                count ++;
-            }else{
-                if(count == 3 - 1){
-                    count = 0;
-                }else{
-                    count = 2;
-                }
-            }
-            banner.style.transform = "translate(-" + count * 980 + "px )";
-        });
-    });
-
-    //setInterval 함수에 첫번째 전달된 익명함수가 3초마다 실행, 이미지가 좌우로 슬라이드 되는 효과
-    var time = setInterval(function (){
-        count++;
-        count = count == 3? 0 : count;
-        banner.style.transform = "translate(-" + count * 980 + "px )";
-    }, 3000);
-</script>
 </html>
