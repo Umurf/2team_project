@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="findpw.css">
-    <title>ohwoonwan</title>
+    <link rel="stylesheet" href="/hmap/hmap.css">
+    <title>우.동.헬</title>
 </head>
 <body>
     <div class="header-container-outline"><!--헤더의 시작-->
@@ -37,23 +37,17 @@
         <div class="main-container-outline"><!--메인 시작-->
             <div class="main-container">
                 <div class="main-container-up">
-                    <h1>비밀번호 찾기</h1>
+                    <div class="main-container-up-section1">
+                        <h1>우리동네 헬스장</h1>
+                    </div>
+                    <div class="main-container-up-section2">
+                        <img class="main-container-up-section2-img" src="img/glass.png">
+                        <input class="main-container-up-section2-searchbox" type="text" name="search" placeholder="검색할 위치를 입력하세요">
+                        <button class="main-container-up-section2-button">검색</button>
+                    </div>
                 </div>
-                <div class="main-container-down">
-                    <div class="main-container-down-section01">
-                        <div class="main-container-down-section01-box1">
-                            이메일
-                        </div>
-                        <label>
-                            <input type="emall" name="email" placeholder="이메일" value class="main-container-down-section01-box2">
-                        </label>
-
-                    </div>
-                    <p class="main-container-down-msg">입력하신 이메일로 임시 비밀번호가 전송됩니다.</p>
-                    <div class="main-container-down-section02">
-                        <button style="width: 70px; height:40px">전송</button>
-                        
-                    </div>
+                <div class="map">
+                    
                 </div>
             </div>
         </div>
@@ -92,4 +86,14 @@
         </footer>
     </div><!--footer종료-->
 </body>
+
 </html>
+<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=ae95d73b26d78be40345423aca839fb3"></script>
+<script>
+    const container = document.getElementById('map'); //지도를 담을 영역의 DOM 레퍼런스
+    let options = { //지도를 생성할 때 필요한 기본 옵션
+        center: new kakao.maps.LatLng(33.450701, 126.570667), //지도의 중심좌표.
+        level: 3 //지도의 레벨(확대, 축소 정도)
+    };
+    let map = new kakao.maps.Map(container, options); //지도 생성 및 객체 리턴
+</script>
