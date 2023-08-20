@@ -122,19 +122,38 @@ main{
 }
 .main-box1-content{
     width: 980px;
-    height: 154px;
+    height: 134px;
     display: flex;
     justify-content: center;
-    line-height: 215px;
-    /* background-color: white; */
+    align-items: center;
+    /* transition: all 0.5s linear; */ 
+    /* background-color: orchid; */
+
 }
 .main-box1-content-button{
     width: 350px;
     height: 95px;
     margin: 0 20px;
-}
-.main-box1-content-button img{
+    position: relative;
+    /* background-color: antiquewhite; */
+    overflow: hidden;
     border-radius: 10px;
+    border-radius: 10px;
+}
+.img1 .img2{
+    width: 355px;
+    height: 100px;
+    position: absolute;
+    /* border-radius: 10px; */
+}
+.img2{
+  display: none;
+}
+.main-box1-content-button:hover .img1{
+    display: none;
+}
+.main-box1-content-button:hover .img2{
+  display: block;
 }
 .main-box2{
     width: 980px;
@@ -206,7 +225,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 0.5px solid gray;
+    /* border: 0.5px solid gray; */
     border-radius: 5px;
 }
 .main-box3-searchbox select , main-box3-searchbox input{

@@ -70,7 +70,7 @@
     /* font-weight: bold; */
   }
   .header-box2{
-    width: 130px;
+    width: 150px;
     height: 30px;
     /* background-color: blueviolet; */
     display: flex;
@@ -81,7 +81,8 @@
   }
   .header-box2 li{
     list-style: none;
-    font-size: 15px;
+    font-size: 14.5px;
+    margin: 0 5px;
     /* font-weight: bold; */
   }
 
@@ -198,7 +199,27 @@ main{
 .main-box2-list-button button{
     width: 50px;
     height: 23px;
+    border: none ;
+}
+#listbutton1{
+    width: 50px;
+    height: 23px;
+    background-color: white;
+    color: gray;
+    border-radius: 2px;
+    border: 0.5px solid rgb(197, 194, 194) ;
+}
+#listbutton2{
+    width: 50px;
+    height: 23px;
     background-color: black;
+    color: white;
+    border-radius: 2px;
+}
+#listbutton3{
+    width: 50px;
+    height: 23px;
+    background-color: rgb(197, 194, 194);
     color: white;
     border-radius: 2px;
 }
@@ -290,9 +311,9 @@ main{
     width: 100px;
     height: 20px;
     margin: 3px 10px;
-    font-weight: bold;
     /* background-color: aqua; */
     display: flex;
+    font-weight: bold;
     /* justify-content: center; */
     align-items: center;
 }
@@ -315,7 +336,7 @@ main{
     height: 100px;
     font-size: 14px;
 }
-.writing-comment-box {
+.writing-comment-box{
     width: 944px;
     height: 80px;
     border: 0.5px solid gray;
@@ -389,7 +410,7 @@ footer{
   .footer-02-01 div{
     margin: 0 10px;
   }
-#listbutton , #commentbutton{
+#commentbutton{
     color: white;
 }
 #privacy-button{
