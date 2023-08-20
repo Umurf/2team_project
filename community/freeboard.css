@@ -3,45 +3,57 @@
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
-}
-*{
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+    text-decoration-line: none;
+  }
+  [role=button], a, button, input[type=button], input[type=reset], input[type=submit] {
+    cursor: pointer;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+  }
+  *{
     margin: 0;
     padding: 0;
     font-family: 'NanumSquareNeo-Variable';
-}
-header{
+  }
+  header{
     width: 100vw;
     height: 80px;
     /* background-color: antiquewhite; */
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.header-container{
+    border-bottom: 0.5px solid rgb(245, 245, 245);
+  }
+  .header-container{
     width: 980px;
     height: 80px;
     /* background-color: aqua; */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 0.5px solid rgb(183, 182, 182) ;
-}
-.header-box1{
+    
+  }
+  .header-box1{
     width: 350px;
     height: 60px;
     /* background-color: blue; */
     display: flex;
     margin: 0 10px;
-}
-.logo{
+  }
+  .logo{
     width: 150px;
     height: 60px;
-}
-.logo img{
+  }
+  .logo img{
     width: 140px;
     height: 60px;
-}
-.header-nav{
+  }
+  .header-nav{
     width: 200px;
     height: 45px;
     /* background-color: aliceblue; */
@@ -51,27 +63,27 @@ header{
     justify-content: space-between;
     align-items: end;
     /* position: absolute; */
-}
-.header-nav li {
+  }
+  .header-nav li {
     list-style: none;
     font-size: 15px;
     /* font-weight: bold; */
-}
-.header-box2{
+  }
+  .header-box2{
     width: 130px;
-    height: 45px;
+    height: 30px;
     /* background-color: blueviolet; */
     display: flex;
     align-items: end;
     justify-content: space-between;
     padding: 0;
     margin: 0 10px;
-}
-.header-box2 li{
+  }
+  .header-box2 li{
     list-style: none;
-    font-size: 14px;
+    font-size: 15px;
     /* font-weight: bold; */
-}
+  }
 main{
     width: 100vw;
     /* background-color: antiquewhite; */
@@ -238,45 +250,46 @@ main{
 footer{
     width: 100vw;
     height: 130px;
-    background-color: rgb(239, 239, 239);
+    background-color: rgb(245, 245, 245);
     text-align: center;
     font-size: 13px;
     color: gray;
-}
-.footer-01{
+    
+    /* 푸터 하단 고정  */
+  
+    /* position : absolute;
+    bottom : 0; */
+  }
+  .footer-01{
     width:100vw;
     height: 80px;
-    border-bottom: 0.5px solid rgb(183, 182, 182);
+    border-bottom: 0.5px solid rgb(236, 236, 236);
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.footer-01-01 div{
+  }
+  .footer-01-01 div{
     width: auto;
     height: 20px;
     margin:  5px 0;
     /* background-color: aquamarine; */
-}
-.footer-02{
+  }
+  .footer-02{
     width: 100vw;
     height: 50px;
     display: flex;
     justify-content: center;
-}
-.footer-02-01{
+  }
+  .footer-02-01{
     width: 980px;
     height: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-.footer-02-01 div{
+  }
+  .footer-02-01 div{
     margin: 0 10px;
-}
-a{
-    text-decoration: none;
-    color: black;
-}
+  }
 #writing-button{
     color: white;
 }
