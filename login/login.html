@@ -4,34 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./login.css">
-    <title>ohwoonwan</title>
+    <title>로그인페이지</title>
 </head>
 <body>
     <div class="header-container-outline"><!--헤더의 시작-->
-        <header class="header-container">
-            <div class="h-c-section01"><!--로고 시작-->
-                <h1 class="h-c-s-logo">
-                    <a href="#">
-                        <img src="./img/logo.png" alt="로고" style="width: 140px; height: 60px;">
-                    </a>
-                </h1>
-                <div class="h-c-section02"><!--커뮤니티 버튼-->
-                    <a class="h-s-link" href="">
-                        <span class="header-section02-span"><strong>&nbsp;&nbsp;우리동네 헬스장</strong></span>
-                    </a>
-                    <a class="h-s-link" href="">
-                        <span class="header-section02-span"><strong>&nbsp; 커뮤니티</strong></span>
-                    </a>
+        <header>
+            <div class="header-container">
+                <div class="header-box1">
+                    <div class="logo"><img src="./img/logo.png" alt=""></div>
+                    <div class="header-nav">
+                        <ul class="header-nav">
+                            <li>
+                                <a href="">우리동네 헬스장</a>
+                            </li>
+                            <li>
+                                <a href="">커뮤니티</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-            <div class="h-c-section03"></div>
-            <div class="h-c-section04"><!--로그인, 회원가입-->
-                <a class="h-sec04-link" href="https://soomgo.com/sign-up?from=gnb&entry_point=signup_cta">
-                    <span class="header-section04-span01" style="margin : 0 20px 0 90px"><strong>로그인</strong></span>
-                </a>
-                <a class="h-sec04-link02" href="">
-                    <span class="header-section04-span02"><strong>&nbsp;회원가입</strong></span>
-                </a>
+                <div class="header-box2">
+                    <ul class="header-box2">
+                        <li>
+                            <a href="">관리자</a>
+                        </li>
+                        <li>
+                            <a href="">회원관리</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </header>
     </div><!--헤더의 종료-->
@@ -42,7 +43,7 @@
                     <h1>로그인</h1>
                 </div>
                 <div class="logo-center">
-                    <img src="./img/logo.png" alt="로고" style="width: 140px; height: 60px;">
+                     <!-- <img src="./img/logo.png" alt="로고" style="width: 140px; height: 60px;">  -->
                 </div>
                 <input type="email" id="login_email" name="user_login" size="30" value="" class="ty-login__input login_email_label_input" tabindex="1" placeholder="이메일">
                 <input type="password" id="login_password" name="password" size="30" value="" class="ty-login__input login_password_label_input" maxlength="32" tabindex="2" placeholder="비밀번호 ">
