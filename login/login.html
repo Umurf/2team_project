@@ -26,10 +26,10 @@
                 <div class="header-box2">
                     <ul class="header-box2">
                         <li>
-                            <a href="">관리자</a>
+                            <a href="">로그인</a>
                         </li>
                         <li>
-                            <a href="">회원관리</a>
+                            <a href="">회원가입</a>
                         </li>
                     </ul>
                 </div>
@@ -42,15 +42,19 @@
                 <div class="main-container-up">
                     <h1>로그인</h1>
                 </div>
-                <div class="logo-center">
-                     <!-- <img src="./img/logo.png" alt="로고" style="width: 140px; height: 60px;">  -->
-                </div>
+                <!-- <div class="logo-center">
+                     <img src="./img/logo.png" alt="로고" style="width: 140px; height: 60px;"> 
+                </div> -->
                 <input type="email" id="login_email" name="user_login" size="30" value="" class="ty-login__input login_email_label_input" tabindex="1" placeholder="이메일">
                 <input type="password" id="login_password" name="password" size="30" value="" class="ty-login__input login_password_label_input" maxlength="32" tabindex="2" placeholder="비밀번호 ">
                 <button class="ty-btn__login ty-btn__secondary ty-btn ty-login__sign-button" type="submit" name="dispatch[auth.login]" tabindex="4">로그인</button>
                 <div class="find-number">
                     <a href="#" class="ty-password-forgot__a" tabindex="5">비밀번호 찾기</a>
                 </div>
+                <div class="login-noti">
+                    <p><span>안내</span>입력하신 이메일 주소 또는 비밀번호가 올바르지 않습니다. 확인 후 다시 입력해주세요.</p>
+                    <button type="button" class="close-btn">X</button>
+                 </div>
              </div>
         </div>        
     </main>
@@ -126,5 +130,19 @@
         count = count == 3? 0 : count;
         banner.style.transform = "translate(-" + count * 980 + "px )";
     }, 3000);
+
+    // 로그인 에러 메시지
+    const loginBtn = document.querySelector(".ty-btn__login");
+    const errorMessage = document.querySelector(".login-noti");
+    const closeBtn = document.querySelector(".close-btn");
+
+    loginBtn.addEventListener('click', function(){
+        errorMessage.classList.add('on');
+    });
+
+    //닫기
+    closeBtn.addEventListener('click', function(){
+        errorMessage.classList.remove('on');
+    });
 </script>
 </html>

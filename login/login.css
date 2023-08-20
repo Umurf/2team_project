@@ -103,6 +103,7 @@ padding-top:100px;
   display: flex;
   flex-direction: column;
   margin-top: 50px;
+  position:relative;
 }
 .main-container-up{
   width: 100%;
@@ -158,7 +159,45 @@ padding-top:100px;
  color:#666;
 }
 
+/* 로그인 에러 메시지 */
+.login-noti {
+background:rgb(214, 84, 84);
+position:absolute;
+top:200px;
+left:-25px;
+height:40px;
+line-height:40px;
+width:550px;
+padding:0 20px;
+box-sizing:border-box;
+display:none;
+}
 
+.login-noti p {
+color:#fff;
+font-size:12px;
+}
+
+.login-noti span {
+font-size:13px;
+font-weight: bold;
+margin-right:10px;
+}
+
+.close-btn {
+position:absolute;
+top:0; 
+right:0;
+width:40px;
+height:40px;
+background:none;
+border:none;
+color:#fff;
+}
+
+.login-noti.on {
+display:block;
+}
 
 .main-container-down{
   width: 100%;
