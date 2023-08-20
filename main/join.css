@@ -74,7 +74,7 @@ header{
 }
 .header-box2{
   width: 130px;
-  height: 45px;
+  height: 30px;
   /* background-color: blueviolet; */
   display: flex;
   align-items: end;
@@ -184,8 +184,66 @@ hr{
   font-size: 14px;
     line-height: 20px;
     letter-spacing: -0.3px;
+    border-bottom:0.5px solid #bebebe
+}
+/* 모달창 시작 */
+.modal{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+/* 모달창 중앙 맞추기 */
+
+  display:none;
+
+  background-color: rqba(0,0,0,0.4);
+}
+.modal.show{
+  display: block;
+}
+.modal_body{
+  position: absolute;
+  top : 50%;
+  left : 50%;
+  transform: translateX(-50%) translateY(-50%);
+/* 모달창 중앙 맞추기  */
+
+  width:400px;
+  height: 600px;
+  padding: 40px;
+
+  text-align: center;
+
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 0 2px 3px 0 rgba(34, 36, 38, 0.15);
+/* 수평위치, 수직위치, 흐림정도, 확산정도
+  (그림자색) */
+
+
 }
 
+
+.btn-open-popup{
+  margin-left: 6px;
+  color: black;
+
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.3px;
+
+  border:none;
+  border-bottom:0.5px solid #d2d2d2;
+  background-color: white;
+}
+
+.modal_span{
+  display: block;
+  text-align: left;
+}
+
+/* 모달창 끝 */
 .span-p{
   display: inline-block;
   padding-left: 2px;
