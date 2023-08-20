@@ -21,46 +21,47 @@ body{
 }
 
 /*-------------------------*/
-.footer-container-outline{/*풋터 기반 스타일*/
-    width: 100%;
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    background-color: #f2f2f2;
-    border-bottom: 1px solid #e2e2e2;
+footer{
+  width: 100vw;
+  height: 130px;
+  background-color: rgb(245, 245, 245);
+  text-align: center;
+  font-size: 13px;
+  color: gray;
+  
+  /* 푸터 하단 고정  */
+
+  /* position : absolute;
+  bottom : 0; */
 }
-.footer-container{
-    width: 980px;
-    height: 80px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+.footer-01{
+  width:100vw;
+  height: 80px;
+  border-bottom: 0.5px solid rgb(236, 236, 236);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.f-c-section02{
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: space-between;
+.footer-01-01 div{
+  width: auto;
+  height: 20px;
+  margin:  5px 0;
+  /* background-color: aquamarine; */
 }
-.footer-container-outline02{/*풋터 기반 스타일*/
-    width: 100%;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    background-color: #f2f2f2;
+.footer-02{
+  width: 100vw;
+  height: 50px;
+  display: flex;
+  justify-content: center;
 }
-.footer-container02{
-    width: 980px;
-    height: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+.footer-02-01{
+  width: 980px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-/* footer{
-  position : relative;
-  transform : translateY(-100%);
-} */
+.footer-02-01 div{
+  margin: 0 10px;
+}
 /*-----------footer 종료--------------*/
