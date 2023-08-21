@@ -88,7 +88,7 @@
 /* ----------메인 시작----------- */
 .main-container-outline{ /*헤더 전체 틀*/
     width: 100%;
-    height: 900px;
+    height: 950px;
     display: flex;
     justify-content: center;
 }
@@ -111,7 +111,8 @@
     height: 250px;
     display: flex;
     flex-direction: column;
-    margin-top: 200px;
+    margin-top: 20px;
+    padding-top: 150px;
     border-top: 0.5px solid rgb(245, 245, 245);
     border-bottom: 0.5px solid rgb(245, 245, 245);
     
@@ -141,9 +142,9 @@
     line-height: 21px;
 }
 .main-container-down-msg{
-    margin-left: 50px;
+    margin-left: 100px;
   margin-bottom: 10px;
-  font-size: 14px;
+  font-size: 20px;
   line-height: 18px;
   color: rgb(204, 209, 212);
   letter-spacing: -0.3px;
@@ -153,6 +154,19 @@
     display: flex;
     justify-content: end;
     margin: 80px auto;
+}
+.main-container-down-section02-button{
+  margin-top: 10px;
+  width: 300px;
+  height: 45px;
+  padding: 0px;
+  margin: auto;
+  background: rgb(247, 248, 250);
+  border: 1px solid transparent;
+  border-color: rgb(218, 220, 224);
+  font-size: 17px;
+  
+  /* color: rgb(194, 200, 204); */
 }
 /* ----------메인 종료----------- */
 footer{
