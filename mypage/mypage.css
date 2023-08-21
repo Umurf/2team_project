@@ -128,10 +128,16 @@
     height: 20px;
     display: flex;
     justify-content: center;
-    color: red;
     margin-top: 15px;
-    text-decoration: underline;
+    cursor: pointer;
+    /* text-decoration: underline; */
     
+}
+.main-container-down-section01-box-button{
+  color: red;
+  background-color: white;
+  border: none;
+  border-bottom: 0.5px solid red;
 }
 .main-container-down-section02{
     width: 100%;

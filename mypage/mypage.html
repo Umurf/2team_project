@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/mypage/mypage.css">
+    <script defer src ="/mypage/mypage.js"></script>
     <title>회원정보수정</title>
 </head>
 <body>
@@ -12,17 +13,17 @@
             <div class="header-container">
                 <div class="header-box1">
                     <div class="logo">
-                        <a href="">
+                        <a href="../main/main.html">
                             <img src="../admin/img/logo.png" alt="">
                         </a>
                     </div>
                     <div class="header-nav">
                         <ul class="header-nav">
                             <li>
-                                <a href="">우리동네 헬스장</a>
+                                <a href="../hmap/hmap.html">우리동네 헬스장</a>
                             </li>
                             <li>
-                                <a href="">커뮤니티</a>
+                                <a href="../community/community.html">커뮤니티</a>
                             </li>
                         </ul>
                     </div>
@@ -30,10 +31,10 @@
                 <div class="header-box2">
                     <ul class="header-box2">
                         <li>
-                            <a href="">xxx님</a>
+                            <a href="../mypage/mypage.html">xxx님</a>
                         </li>
                         <li>
-                            <a href="">로그아웃</a>
+                            <a href="../main/main.html">로그아웃</a>
                         </li>
                     </ul>
                 </div>
@@ -49,7 +50,7 @@
                 <div class="main-container-down">
                     <div class="main-container-down-section01">
                         <div class="main-container-down-section01-box">
-                            회원탈퇴
+                            <button onclick="call_confirm()" class="main-container-down-section01-box-button">회원탈퇴</button>
                         </div>
                     </div>
                     <div class="main-container-down-section02">
@@ -97,11 +98,11 @@
 
                     </div>
                     <div class="main-container-down-section06">
-                        <button class="main-container-down-section06-button" name="emailPw" type="button">
+                        <button class="main-container-down-section06-button"  type="button">
                             수  정
                         </button>
-                        <button class="main-container-down-section06-button" name="emailPw" type="button">
-                            취  소
+                        <button class="main-container-down-section06-button"  type="button">
+                            <a href="../main/main.html">취  소</a>
                         </button>
                     </div>
                 </div>
@@ -121,11 +122,11 @@
                 <div class="footer-02-01">
                     <div>ⓒ2023 OWW All Rights Reserved</div>
                     <div>
-                        <a href="">개인정보처리방침</a>
+                        <a href="../main/privacy.html">개인정보처리방침</a>
                     </div>
                 </div>
             </div>
-    
+
         </footer>
     </div><!--footer종료-->
 </body>
