@@ -3,146 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./login.css">
-    <title>로그인페이지</title>
+    <title>로그인</title>
+    <link rel="stylesheet" href="login.css">
 </head>
 <body>
-    <div class="header-container-outline"><!--헤더의 시작-->
-        <header>
-            <div class="header-container">
-                <div class="header-box1">
-                    <div class="logo"><img src="./img/logo.png" alt=""></div>
-                    <div class="header-nav">
-                        <ul class="header-nav">
-                            <li>
-                                <a href="">우리동네 헬스장</a>
-                            </li>
-                            <li>
-                                <a href="">커뮤니티</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="header-box2">
-                    <ul class="header-box2">
+    <header>
+        <div class="header-container">
+            <div class="header-box1">
+                <div class="logo"><img src="./img/logo.png" alt=""></div>
+                <div class="header-nav">
+                    <ul class="header-nav">
                         <li>
-                            <a href="">로그인</a>
+                            <a href="">우리동네 헬스장</a>
                         </li>
                         <li>
-                            <a href="">회원가입</a>
+                            <a href="">커뮤니티</a>
                         </li>
                     </ul>
                 </div>
             </div>
-        </header>
-    </div><!--헤더의 종료-->
+            <div class="header-box2">
+                <ul class="header-box2">
+                    <li>
+                        <a href="">관리자</a>
+                    </li>
+                    <li>
+                        <a href="">회원관리</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
     <main>
-        <div class="main-container-outline"><!--메인 시작-->
-            <div class="main-container">
-                <div class="main-container-up">
-                    <h1>로그인</h1>
-                </div>
-                <!-- <div class="logo-center">
-                     <img src="./img/logo.png" alt="로고" style="width: 140px; height: 60px;"> 
-                </div> -->
-                <input type="email" id="login_email" name="user_login" size="30" value="" class="ty-login__input login_email_label_input" tabindex="1" placeholder="이메일">
-                <input type="password" id="login_password" name="password" size="30" value="" class="ty-login__input login_password_label_input" maxlength="32" tabindex="2" placeholder="비밀번호 ">
-                <button class="ty-btn__login ty-btn__secondary ty-btn ty-login__sign-button" type="submit" name="dispatch[auth.login]" tabindex="4">로그인</button>
-                <div class="find-number">
-                    <a href="#" class="ty-password-forgot__a" tabindex="5">비밀번호 찾기</a>
-                </div>
-                <div class="login-noti">
-                    <p><span>안내</span>입력하신 이메일 주소 또는 비밀번호가 올바르지 않습니다. 확인 후 다시 입력해주세요.</p>
-                    <button type="button" class="close-btn">X</button>
-                 </div>
-             </div>
-        </div>        
+        <div class="login-box">
+            <div class="login-text">로그인</div>
+            <div class="login-input-box">
+                <form action="">
+                    <div class="input-email-n-pw">
+                    <div class="input-email" ><input  id="email" type="email" placeholder="이메일"></div>
+                    <div class="input-pw"><input  id="pw" type="password" placeholder="비밀번호"></div>
+                    </div>
+                    <div class="input-button"><button id="input-box-button">로그인</button></div>
+                </form>
+            </div>
+            <div class="find-pw"><a href="">비밀번호찾기</a></div>
+        </div>
     </main>
-    <div class="footer-container-outline"><!--footer 시작-->
-        <footer class="footer-container">
-            <section class="f-c-section01">
+    <footer>
+        <div class="footer-01">
+            <div class="footer-01-01">
+               <div>(주)오운완 | 대표자 : 노의진(팀장), 이지윤(부팀장), 김민규, 이동현, 유대훈</div>
+               <div>서울특별시 노원구 상계로 1길 34 5층 | 전화번호 : 02-933-5890</div>
+            </div>
+        </div>
+        <div class="footer-02">
+            <div class="footer-02-01">
+                <div>ⓒ2023 OWW All Rights Reserved</div>
                 <div>
-                    <span>
-                        <br>
-                        (주)오운완 | 대표자 : 노의진(팀장), 이지윤(부팀장), 김민규, 이동현, 유대훈 
-                        <br>
-                        서울특별시 노원구 상계로 1길 34 5층 | 전화번호 : 02-933-5890
-                    </span>
+                    <a href="">개인정보처리방침</a>
                 </div>
-            </section>
-        </footer>
-    </div>
-    <hr>
-    <div class="footer-container-outline02">
-        <footer class="footer-container02">
-            <section class="f-c-section02">
-                <div>
-                    <span>
-                        ⓒ2023 OWW Global All Reserved
-                    </span>
-                </div>
-                <div>
-                    <a href="/html/team_project/main-personal-info.html" target="_blank">
-                        <span class="abcd">
-                            개인정보처리방침
-                        </span>
-                    </a>
-                </div>
-            </section>
-        </footer>
-    </div><!--footer종료-->
+            </div>
+        </div>
+    </footer>
 </body>
-<script>
-    const btns = document.querySelectorAll("button.btn");
-    const banner = document.querySelector("div.banner");
-    const arrows = document.querySelectorAll("div.arrow");
-    var count = 0;
-
-    btns.forEach(function(value, index, ar){
-        ar[index].addEventListener("click", function(){
-            count = index;
-            banner.style.transform = "translate(-" + count * 980 + "px )";
-        })
-    });
-
-    //이전, 다음 버튼 클릭시 알맞은 배너로 이동
-    arrows.forEach((arrow) => {
-        arrow.addEventListener("click", function(){
-            let arrowType = arrow.classList[1];
-            if(arrowType == 'prev' && count != 0){
-                count --;
-            }else if(arrowType == 'next' && count != 3 - 1){
-                count ++;
-            }else{
-                if(count == 3 - 1){
-                    count = 0;
-                }else{
-                    count = 2;
-                }
-            }
-            banner.style.transform = "translate(-" + count * 980 + "px )";
-        });
-    });
-
-    //setInterval 함수에 첫번째 전달된 익명함수가 3초마다 실행, 이미지가 좌우로 슬라이드 되는 효과
-    var time = setInterval(function (){
-        count++;
-        count = count == 3? 0 : count;
-        banner.style.transform = "translate(-" + count * 980 + "px )";
-    }, 3000);
-
-    // 로그인 에러 메시지
-    const loginBtn = document.querySelector(".ty-btn__login");
-    const errorMessage = document.querySelector(".login-noti");
-    const closeBtn = document.querySelector(".close-btn");
-
-    loginBtn.addEventListener('click', function(){
-        errorMessage.classList.add('on');
-    });
-
-    //닫기
-    closeBtn.addEventListener('click', function(){
-        errorMessage.classList.remove('on');
-    });
-</script>
 </html>
