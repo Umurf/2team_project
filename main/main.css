@@ -95,6 +95,7 @@ main{/*main결정*/
     height: 500px;
     display: flex;
     justify-content: center;
+    margin: 10px 0 10px 0;
 }
 .m-c-banner-container{
     width: 980px;
@@ -121,6 +122,7 @@ div.img{
 div.img img{
     width:100%;
     display:block;
+    border-radius: 10px;
 }
 
 /* div.arrow{
