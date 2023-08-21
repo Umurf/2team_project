@@ -137,11 +137,11 @@ main{/*main결정*/
     justify-content: center;
     align-items: center;
 }
-.m-o-container{
+.main-outline-container{
     width: 980px;
     height: auto;
 }
-.m-o-container02{
+.main-outline-container02{
     width: 980px;
     height: auto;
     display: flex;
