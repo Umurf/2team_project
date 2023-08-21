@@ -90,7 +90,7 @@ main{/*main결정*/
     height: auto;
     display: block;
 }
-.m-o-container{
+.main-outline-container{
     width: 100%;
     height: 500px;
     display: flex;
@@ -101,7 +101,7 @@ main{/*main결정*/
     width: 980px;
     height: 450px;
 }
-div.m-o-c-banner-container{/*수업참고 js.day04*/
+div.main-outline-container-banner-container{/*수업참고 js.day04*/
     margin:0 auto;
     width: 980px;
     overflow:hidden;
@@ -142,20 +142,20 @@ div.next{
     right: 0;
 }	 */
 /*---------main banner 종료----------*/
-.m-o-community-container{
+.main-outline-community-container{
     width: 100%;
     height: 500px;
     display: flex;
     justify-content: center;
 }
-.m-o-c-c-section{
+.main-outline-community-container-section{
     width: 980px;
     height: 500px;
     display: flex;
     justify-content: space-between;
 }
-.m-o-c-c-c-sec01,
-.m-o-c-c-c-sec02{
+.main-outline-community-container-sec01,
+.main-outline-community-container-sec02{
     width: 450px;
     height: 450px;
     border: 1px solid black;
