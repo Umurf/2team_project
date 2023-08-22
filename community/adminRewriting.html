@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>글 작성</title>
-    <link rel="stylesheet" href="writing.css">
+    <title>(관리자)공지사항 글 수정</title>
+    <link rel="stylesheet" href="adminRewriting.css">
 </head>
 <body>
     <header>
@@ -25,7 +25,7 @@
             <div class="header-box2">
                 <ul class="header-box2">
                     <li>
-                        <a href="../mypage/mypage.html">이지윤님</a>
+                        <a href="../admin/admin.html">관리자님</a>
                     </li>
                     <li>
                         <a href="../main/main.html">로그아웃</a>
@@ -37,12 +37,12 @@
     <main>
         <div class="main-container">
             <div class="main-box1-titlebox">
-                <div class="main-box1-title"><div id="title1"><a href="./community.html">커뮤니티</a></div><div id="title2">&gt;</div><div id="title2"><a href="./freeBoard.html">자유게시판</a></div></div>
+                <div class="main-box1-title"><div id="title1"><a href="./community.html">커뮤니티</a></div><div id="title2">&gt;</div><div id="title2"><a href="./notice.html">공지사항</a></div></div>
             </div>
             <div class="content-container">
                 <form class="content-form" action="">
                     <div class="content-title">제목 <input type="text"></div>
-                    <div class="content-nickname">닉네임 <input class="writer-nickname" value="작성자닉네임고정" readonly></div>
+                    <div class="content-nickname">닉네임 <input class="writer-nickname" value="관리자" readonly></div>
                     <div class="content-content">내용 <textarea name="" id="writing-area"></textarea></div>
                     <div class="addfile">
                         <div class="addfile-text">
@@ -58,7 +58,7 @@
                         </form>
                         </div>
                     </div>
-                    <div class="buttons"><button id="button1"><a id="button1" href="./freeBoard.html">취소</a></button><button class="button2"><a id="button2" href="./readingMy.html">등록</a></button></div>
+                    <div class="buttons"><button id="button1"><a id="button1" href="./adminReadNT.html">취소</a></button><button class="button2"><a id="button2" href="./adminReadNT.html">수정</a></button></div>
                 </form>
             </div>
         </div>
@@ -74,7 +74,7 @@
             <div class="footer-02-01">
                 <div>ⓒ2023 OWW All Rights Reserved</div>
                 <div>
-                    <a href="../main/main.html">개인정보처리방침</a>
+                    <a href="../main/privacy.html">개인정보처리방침</a>
                 </div>
             </div>
         </div>
