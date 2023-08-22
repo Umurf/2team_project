@@ -93,8 +93,8 @@ main{
 }
 .login-box{
   width: 500px;
-  height: 650px;
-  /* background-color: aquamarine; */
+  height: 950px;
+  background-color: aquamarine;
 }
 .login-text{
   width: 500px;
@@ -105,7 +105,7 @@ main{
   /* line-height: 30px; */
   /* background-color: yellow; */
   border-bottom: 0.5px solid rgb(245, 245, 245);
-  margin: 140px 0 100px 0;
+  margin: 200px 0 100px 0;
 }
 .login-input-box{
   width: 500px;
