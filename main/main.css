@@ -163,6 +163,47 @@ div.next{
 /* .m-o-c-c-c-sec02{
     margin-right: 50px;
 } */
+.main-communitybox{
+  width: 450px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: antiquewhite; */
+}
+.main-communitybox-title{
+  width: 450px;
+  height: 50px;
+  /* background-color: aqua; */
+}
+.main-communitybox-contentbox{
+  width: 450px;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: azure; */
+}
+.main-communitybox-titleline{
+  width: 300px;
+  height: 60px;
+  border-bottom: 1px solid black;
+  /* background-color: blue; */
+}
+.main-communitybox-nickname{
+  width: 100px;
+  height: 60px;
+  border-bottom: 1px solid black;
+  /* background-color: brown; */
+  justify-content: center;
+  
+}
+.main-communitybox-titleline,
+.main-communitybox-nickname{
+  display: flex;
+  align-items: center;
+}
 /*-----------main community*/
 footer{
   width: 100vw;
