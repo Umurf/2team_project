@@ -158,25 +158,276 @@ main{
   font-size: 14px;
   /* font-weight: bold; */
   /* margin: 100px 10px; */
-  margin-top: 40px;
-  /* background-color: pink; */
+  margin-top: 20px;
+
   border: 1px solid rgb(245, 245, 245);
   background-color: rgb(245, 245, 245);
   /* border-radius: 5px; */
+  /* margin-top: 200px; */
 }
 .main-box2-span{
-  margin-left: 30px;
+  /* margin-left: 30px; */
+  text-indent: 30px;
+  /* 들여쓰기 */
 }
 .main-box2-content{
-  width: 980px;
+  width: 1000px;
   height: 500px;
   text-align: center;
   line-height: 200px;
-  border: 1px solid rgb(239, 239, 239);
+  border-bottom: 1px solid rgb(239, 239, 239);
   /* background-color: pink; */
 
   /* margin-top: 50px; */
 }
+/* 회원 정보 시작 */
+.main-box1-1{
+  width: 980px;
+  height: 560px;
+}
+.main-box1-1-content{
+  width: 980px;
+  height: 50px;
+  text-align: center;
+  line-height: 200px;
+  border-bottom: 1px solid rgb(239, 239, 239);
+}
+.main-box1-2-content{
+  width: 980px;
+  height: 50px;
+  text-align: center;
+  line-height: 200px;
+  border-bottom: 1px solid rgb(239, 239, 239);
+}
+.main-box1-1-span{
+  /* margin-left: 30px; */
+  /* 마진 왼쪽 30px */
+  text-indent: 30px;
+  /* 들여쓰기 */
+}
+
+.main-box2-content-content{
+  width: 980px;
+  height: 54px;
+  display: flex;
+  align-items: center;
+  /* border-bottom: 0.5px solid #ddd; */
+
+  /* text-align: center;
+  justify-content: center; */
+}
+.main-box2-content-title{
+  width: 196px;
+  height: 54px;
+  display: flex;
+  align-items: center;
+
+  text-align: center;
+  justify-content: center;
+}
+.main-box2-content-email{
+  width: 196px;
+  height: 54px;
+  display: flex;
+  align-items: center;
+
+  text-align: center;
+  justify-content: center;
+}
+.main-box2-content-nickname{
+  width: 196px;
+  height: 54px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.main-box2-content-date{
+  width: 196px;
+  height: 54px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.main-box2-content-management{
+  width: 196px;
+  height: 54px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+/* 회원 정보 창 끝 */
+/* 회원 정보 결과 시작 */
+.main-box2-1-title{
+  width: 980px;
+  height: 50px;
+  display: flex;
+  /* justify-content; */
+  align-items: center;
+  font-size: 14px;
+  /* font-weight: bold; */
+  /* margin: 100px 10px; */
+  /* margin-top: 40px; */
+
+  /* border: 1px solid rgb(245, 245, 245);
+  background-color: rgb(245, 245, 245); */
+  /* border-radius: 5px; */
+  /* margin-top: 200px; */
+}
+.management_b{
+width: 50px;
+height: 25px;
+/* background-color: red; */
+/* background-color: black; */
+/* background-color: royalblue; */
+background-color: #b0b0b0;
+color: white;
+/* font-weight: bold; */
+font-size: 15px;
+
+border: none;
+border-radius: 8px;
+
+}
+
+/* 회원 정보 결과 끝 */
+/* 회원 게시글 목록 시작 */
+.main-box2-2-content-number{
+  width: 83.3px;
+  height: 54px;
+  display: flex;
+  align-items: center;
+
+  text-align: center;
+  justify-content: center;
+}
+.main-box2-2-content-nickname{
+  width: 143.3px;
+  height: 54px;
+  display: flex;
+  align-items: center;
+
+  text-align: center;
+  justify-content: center;
+}
+.main-box2-2-content-title{
+  width: 383.3px;
+  height: 54px;
+  display: flex;
+  align-items: center;
+
+  text-align: center;
+  justify-content: center;
+}
+.main-box2-2-content-date{
+  width: 163.3px;
+  height: 54px;
+  display: flex;
+  align-items: center;
+
+  text-align: center;
+  justify-content: center;
+}
+.main-box2-2-content-views{
+  width: 83.3px;
+  height: 54px;
+  display: flex;
+  align-items: center;
+
+  text-align: center;
+  justify-content: center;
+}
+.main-box2-2-content-management{
+  width: 123.3px;
+  height: 54px;
+  display: flex;
+  align-items: center;
+
+  text-align: center;
+  justify-content: center;
+}
+/* 회원 게시글 목록 끝 */
+/* 회원 게시글 시작 */
+.main-box3-1-title{
+  width: 980px;
+  height: 50px;
+  display: flex;
+  /* justify-content; */
+  align-items: center;
+  font-size: 14px;
+  /* font-weight: bold; */
+  /* margin: 100px 10px; */
+  /* margin-top: 20px; */
+
+  border-bottom: 1px solid rgb(245, 245, 245);
+  /* background-color: rgb(245, 245, 245); */
+  /* border-radius: 5px; */
+  /* margin-top: 200px; */
+}
+
+.main-box3-1-content-number{
+  width: 83.3px;
+  height: 54px;
+  display: flex;
+  align-items: center;
+
+  text-align: center;
+  justify-content: center;
+}
+.main-box3-1-content-nickname{
+  width: 143.3px;
+  height: 54px;
+  display: flex;
+  align-items: center;
+
+  text-align: center;
+  justify-content: center;
+}
+.main-box3-1-content-title{
+  width: 383.3px;
+  height: 54px;
+  display: flex;
+  align-items: center;
+
+  text-align: center;
+  justify-content: center;
+}
+.main-box3-1-content-date{
+  width: 163.3px;
+  height: 54px;
+  display: flex;
+  align-items: center;
+
+  text-align: center;
+  justify-content: center;
+}
+.main-box3-1-content-views{
+  width: 83.3px;
+  height: 54px;
+  display: flex;
+  align-items: center;
+
+  text-align: center;
+  justify-content: center;
+}
+.main-box3-1-content-management{
+  width: 123.3px;
+  height: 54px;
+  display: flex;
+  align-items: center;
+
+  text-align: center;
+  justify-content: center;
+}
+
+
+
+/* 회원 게시글 끝 */
+
 .main-box3{
   width: 980px;
   height: 100px;
