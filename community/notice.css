@@ -185,12 +185,54 @@
   }
   .main-box2-content{
     width: 980px;
-    height: 560px;
-    text-align: center;
-    line-height: 200px;
-    border: 1px solid gray;
+    height: 550px;
+    border-top: 1px solid gray;
     /* background-color: pink; */
-  }
+    font-size: 13px;
+}
+.main-box2-content-content{
+  width: 980px;
+  height: 54px;
+  display: flex;
+  align-items: center;
+  border-bottom: 0.5px solid #ddd;
+  /* background-color: antiquewhite; */
+}
+.main-box2-content-title{
+  width: 680px;
+  height: 54px;
+  display: flex;
+  align-items: center;
+  /* background-color: aquamarine; */
+  text-indent: 13px;
+}
+.main-box2-content-nickname{
+  width: 120px;
+  height: 54px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: blueviolet; */
+}
+.main-box2-content-date{
+  width: 130px;
+  height: 54px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: rgb(66, 95, 84); */
+}
+.main-box2-content-count{
+  width: 50px;
+  height: 54px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: rgb(47, 37, 142); */
+}
+#lastlist{
+  border-bottom: 1px solid  gray;
+}
   .main-box3{
     width: 980px;
     height: 100px;
