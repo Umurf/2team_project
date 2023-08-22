@@ -94,7 +94,7 @@ main{
 .login-box{
   width: 500px;
   height: 950px;
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
 }
 .login-text{
   width: 500px;
