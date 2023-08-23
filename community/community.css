@@ -154,7 +154,7 @@ main{
 }
 .main-box2{
     width: 980px;
-    height: 600px;
+    height: 660px;
     /* background-color: pink; */
 }
 .main-box2-titlebox{
@@ -189,6 +189,18 @@ main{
   align-items: center;
   border-bottom: 0.5px solid #ddd;
   /* background-color: antiquewhite; */
+}
+#content-category{
+  border-bottom: 1px solid gray;
+  font-size: 14px;
+  font-weight: bold;
+}
+/* #content-category-title{
+  text-indent: 300px;
+} */
+#notice-content{
+  font-weight: bold;
+  color: black;
 }
 .main-box2-content-title{
   width: 680px;
