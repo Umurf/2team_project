@@ -62,23 +62,43 @@
                 </div>
             </div> -->
         <!-- </div> -->
-        <div class="map_wrap">
-            <div id="map"></div> <!-- 지도 -->
+        <div class="main-container">
+            <div class="main-container-up-section1">
+                <h1>우리동네 헬스장</h1>
+            </div>
+            <div class="main-container-up-section2">
+                <form onsubmit="searchPlaces(); return false;">
+                    <img class="main-container-up-section2-img" src="img/glass.png">
+                    <input type="text" value="노원" id="keyword" size="15" class="main-container-up-section2-searchbox"> 
+                    <button class="main-container-up-section2-button" type="submit">검색</button>
+                </form>
+            </div>   
+            <div class="main-container-up-section3">
+                <div id="menu_wrap" class="bg_white"></div>
+                <div id="map"></div>
+                <hr>
+                <ul id="placesList"></ul>
+                <div id="pagination"></div>
+            </div>
+    </div>
+        <!-- <div class="map_wrap">
+            <div id="map"></div> 
         
-            <div id="menu_wrap" class="bg_white"> <!--사이드 정보창 시작 -->
+            <div id="menu_wrap" class="bg_white"> 
                 <div class="option">
                     <div>
                         <form onsubmit="searchPlaces(); return false;">
-                            키워드 : <input type="text" value="노원 헬스장" id="keyword" size="15"> 
-                            <button type="submit">검색하기</button> 
+                            <img class="main-container-up-section2-img" src="img/glass.png">
+                            <input type="text" value="노원" id="keyword" size="15" class="main-container-up-section2-searchbox"> 
+                            <button class="main-container-up-section2-button" type="submit">검색</button>
                         </form>
                     </div>
                 </div>
                 <hr>
                 <ul id="placesList"></ul>
                 <div id="pagination"></div>
-            </div> <!--사이드 정보창 끝 -->
-        </div>
+            </div> 
+        </div> -->
     </main>
     <div class="footer-container-outline"><!--footer 시작-->
         <footer>
