@@ -173,8 +173,8 @@ main{
 .main-box2-content{
   width: 1000px;
   height: 500px;
-  text-align: center;
-  line-height: 200px;
+  /* text-align: center;
+  line-height: 200px; */
   border-bottom: 1px solid rgb(239, 239, 239);
   /* background-color: pink; */
 
