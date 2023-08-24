@@ -86,14 +86,20 @@
   }
 /*-----------헤더 종료-----------*/
 /* ----------메인 시작----------- */
-.main-container-outline{ /*헤더 전체 틀*/
-    width: 100%;
+/* .main-container-outline{ /*헤더 전체 틀*/
+    /* width: 100%;
     height: 950px;
-    display: flex;
-    justify-content: center;
+    display: flex; */
+    /*justify-content: center;
+} */
+main{
+  width: 100vw;
+  height: 1000px;
+  display: flex;
+  justify-content: center;
 }
 .main-container{
-    width:900px;
+    width:980px;
     height: 950px;
     display: flex;
     flex-direction: column;
@@ -102,11 +108,33 @@
     /* border: 1px solid black; */
 }
 .main-container-up-section1{
+    text-indent: 10px;
     width: 100%;
-    height: 40px;
+    height: 55px;
     display: flex;
     justify-content: start;
+    align-items: center;
+    /* background-color: pink; */
     /* border: 1px solid black; */
+}
+.section1-img{
+  width: 50px;
+  height: 50px;
+  margin: 0px 10px 10px 10px;
+  /* background-color: #009900; */
+}
+.section1-img img{
+  width: 50px;
+  height: 50px;
+}
+.main-container-text{
+  width: 980px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  text-indent: 10px;
+  border-bottom: 0.5px solid rgb(245, 245, 245);
+  /* background-color: pink; */
 }
 .main-container-up-section2{
     width: 100%;
@@ -114,15 +142,17 @@
     display: flex;
     justify-content: start;
     position: relative;
-    /* border: 1px solid black; */
-    margin-top: 30px;
+    /* background-color: pink; */
+    margin-top: 50px;
 }
 .main-container-up-section3{
-  width: 100%;
-  height: 700px;
-  position: relative;
-  border: 1px solid black;
-  margin-top: 30px;
+  width: 980px;
+  height: 650px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  /* margin-top: 30px; */
+  /* background-color: papayawhip; */
 }
 .main-container-up-section2-img{
     display: flex;
@@ -144,19 +174,21 @@
   height: 30px;
   padding: 0px;
   margin-left: 30px;
-  background: rgb(247, 248, 250);
+  color: white;
+  background: black;
   border: 1px solid transparent;
-  border-color: rgb(218, 220, 224);
+  /* border-color: rgb(218, 220, 224); */
 }
 #map{
-    width: 1000px;
-    height: 500px;
+    width: 668px;
+    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto;
-    margin-top: 50px;
-    border: 1px solid black; 
+    margin: 0 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(179, 177, 177);
+
 }
 /* .main-container-down-section1{
     width: 500px;
@@ -225,36 +257,41 @@ footer{
   color:#000;
   text-decoration: none;
 }
-.map_wrap {
+/* .map_wrap {
   position:relative;
   width:100%;
   height:950px;
   margin: auto;
-}
+} */
 #menu_wrap {
-  position:absolute;
-  top:0;
-  left:0;
-  bottom:0;
-  width:250px;
-  margin:10px 0 30px 10px;
-  padding:5px;
+  width:270px;
+  height: 600px;
+  margin:10px 0 10px 10px;
+  /* padding:5px; */
   overflow-y:auto;
-  background:rgba(255, 255, 255, 0.7);
+  background:rgb(245, 245, 245);
   z-index: 1;
   font-size:12px;
   border-radius: 10px;
+  border: 0.5px solid rgb(179, 177, 177);
+  /* background-color: blue; */
 }
-.bg_white {
+/* .bg_white {
   background:#fff;
-}
-#menu_wrap hr {
+} */
+/* #menu_wrap hr {
   display: block; 
   height: 1px;
   border: 0; 
   border-top: 2px solid #5F5F5F;
   margin:3px 0;
-}
+} */
+.map_wrap, .map_wrap * {margin:0;padding:0;font-family:'Malgun Gothic',dotum,'돋움',sans-serif;font-size:12px;}
+.map_wrap a, .map_wrap a:hover, .map_wrap a:active{color:#000;text-decoration: none;}
+.map_wrap {position:relative;width:100%;height:500px;}
+#menu_wrap { z-index: 1;font-size:12px;border-radius: 10px;}
+.bg_white {background:#fff;}
+#menu_wrap hr {display: block; height: 1px;border: 0; border-top: 2px solid #5F5F5F;margin:3px 0;}
 #menu_wrap .option{text-align: center;}
 #menu_wrap .option p {margin:10px 0;}  
 #menu_wrap .option button {margin-left:5px;}
@@ -285,3 +322,9 @@ footer{
 #pagination {margin:10px auto;text-align: center;}
 #pagination a {display:inline-block;margin-right:10px;}
 #pagination .on {font-weight: bold; cursor: default;color:#777;}
+.placelist{
+  width: 270px;
+  height: 550px;
+  overflow: auto;
+  /* background-color: pink; */
+}
