@@ -124,6 +124,8 @@ margin-top: 30px;
   font-size: 16px;
   line-height: 20px;
   font-weight: 600;
+
+  margin-top: 30px;
 }
 .main-l1-d1{
   margin-bottom: 10px;
@@ -160,6 +162,58 @@ margin-top: 30px;
 .main-container-section{
   margin-bottom: 30px;
 }
+/* 이메일 인증 번호 란 시작*/
+.main-container-section2{
+margin-top: -20px;
+}
+.main-label1-input2{
+  display: inline-block;
+  width: 500px;
+  padding: 8px 15px 9px;
+  border: 1px solid rgb(204, 209, 212);
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+  line-height: 21px;
+
+  /* margin-bottom: 0px; */
+  
+  /* position: absolute; */
+}
+.main-b3{
+  width: 70px;
+  height: 100%;
+  padding: 0px;
+  background: rgb(247, 248, 250);
+  color: rgb(194, 200, 204);
+
+  border: 1px solid transparent;
+  border-color: rgb(218, 220, 224);
+  border-radius: 0 4px 4px 0;
+
+  position: absolute;
+  right: 0px;
+  /* top:5px */
+
+  font-size: 17px;
+}
+
+.main-c-s-d1{
+  display: flex;
+  position: relative;
+}
+.main-time{
+  position: absolute;
+  right: 80px;
+  top:10.5px;
+
+  /* color:rgb(194, 200, 204);; */
+}
+
+
+
+/* 이메일 인증 번호 란 끝*/
+
 hr{
   padding: 0px;
   height: 1px;
