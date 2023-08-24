@@ -53,12 +53,11 @@
                     <div class="addfiles">
                         <div class="addfiles1">
                         <form action="">
-                            <button type="button">파일선택</button>
-                            <div class="filechoice">선택된 파일</div>
+                            <input type="file">
                         </form>
                         </div>
                     </div>
-                    <div class="buttons"><button id="button1"><a id="button1" href="./notice.html">취소</a></button><button class="button2"><a id="button2" href="./adminReadNT.html">등록</a></button></div>
+                    <div class="buttons"><button id="button1" onclick="call_confirm1()"><a id="button1" href="./notice.html">취소</a></button><button class="button2" onclick="call_confirm2()"><a id="button2" href="./adminReadNT.html">등록</a></button></div>
                 </form>
             </div>
         </div>
@@ -79,5 +78,21 @@
             </div>
         </div>
     </footer>
+    <script>
+        function call_confirm1(){
+            if(confirm("글 작성을 취소하시겠습니까?")){
+                alert("글 작성이 취소되었습니다.");
+            }else{
+
+            }
+        }
+        function call_confirm2(){
+            if(confirm("글을 등록하시겠습니까?")){
+                alert("글이 등록되었습니다.");
+            }else{
+                
+            }
+        }
+    </script>
 </body>
 </html>

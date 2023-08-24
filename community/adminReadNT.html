@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>(관리자)공지사항 내 글 보기</title>
-    <link rel="stylesheet" href="readingMy.css">
+    <link rel="stylesheet" href="adminReadNT.css">
 </head>
 <body>
     <header>
@@ -55,10 +55,10 @@
                 <div class="main-box2-list-button">
                     <button id="listbutton1"><a id="" href="./notice.html">목록</a></button>
                     <button id="listbutton2"><a id="" href="./adminRewriting.html">수정</a></button>
-                    <button id="listbutton3"><a id="" href="./notice.html">삭제</a></button>
+                    <button id="listbutton3" onclick="call_confirm()"><a id="" href="./notice.html">삭제</a></button>
                 </div>
             </div>
-            <div class="main-box3">
+            <!-- <div class="main-box3">
                     <div class="total-comments-box">
                         <span class="comments-text">댓글</span>
                         <span class="total-comments-text">1</span>
@@ -78,7 +78,7 @@
                             <button>수정</button>
                             <button>삭제</button>
                         </div> -->
-                    </div>
+                   <!--- </div>
                 </div>
                 <div class="write-commentsbox">
                     <div class="comment-writer">
@@ -96,11 +96,11 @@
                                 </div>
                             </div>
                         </form>
-                    </div>
+                    < </div> 
                    
                 </div>
             </div>   
-        </div>
+        </div> -->
     </main>
     <footer>
         <div class="footer-01">
@@ -118,5 +118,15 @@
             </div>
         </div>
     </footer>
+    <script>
+        function call_confirm(){
+            if(confirm("글을 삭제하시겠습니까?")){
+                alert("글이 삭제되었습니다.");
+                location.href="./notice.html";
+            }else{
+                alert("글 삭제가 취소되었습니다.");
+            }
+        }
+    </script>
 </body>
 </html>
